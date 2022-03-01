@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: gva-server
   annotations:
-    flipped-aurora/gin-vue-admin: backend
+    moon-wind/gin-vue-admin: backend
     github: "https://github.com/moon-wind/gin-vue-admin.git"
     app.kubernetes.io/version: 0.0.1
   labels:
