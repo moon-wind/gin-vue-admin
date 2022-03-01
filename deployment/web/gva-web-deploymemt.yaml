@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: gin-vue-admin-nginx-container
-          image: registry.cn-hangzhou.aliyuncs.com/gin-vue-admin/web:40fc3aa6
+          image: registry.cn-hangzhou.aliyuncs.com/moon-wind/k8s-web:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
